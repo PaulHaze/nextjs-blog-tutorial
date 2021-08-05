@@ -13,14 +13,11 @@ export default function Home() {
         <h1 className="p-5 font-bold text-center text-transparent bg-clip-text bg-gradient-to-b from-indigo-400 to-violet-800">
           Lets learn Next JS
         </h1>
-        <div className="flex items-center justify-center mb-5 ">
-          <Image src="/images/the_gem_seller.jpg" height={144} width={120} />
-        </div>
-        <div className="flex items-center justify-center mb-5">
-          <img
-            className="w-auto h-40"
+        <div className="relative mx-auto mb-5 w-[300px] h-[450px] ">
+          <Image
             src="/images/the_gem_seller.jpg"
-            alt=""
+            layout="fill"
+            objectFit="contain"
           />
         </div>
 
