@@ -5,19 +5,19 @@
     @apply h-[100vh] bg-gradient-to-b from-blue-100 to-violet-300;
   }
   h1 {
-    @apply mt-0 text-4xl font-normal leading-normal;
+    @apply text-4xl font-normal leading-normal;
   }
   h2 {
-    @apply mt-0 text-3xl font-normal leading-normal;
+    @apply text-3xl font-normal leading-normal;
   }
   h3 {
-    @apply mt-0 text-2xl font-normal leading-normal;
+    @apply text-2xl font-normal leading-normal;
   }
   h4 {
-    @apply mt-0 text-xl font-normal leading-normal;
+    @apply text-xl font-normal leading-normal;
   }
   h5 {
-    @apply mt-0 text-lg font-normal leading-normal;
+    @apply text-lg font-normal leading-normal;
   }
   a {
     @apply text-blue-600;

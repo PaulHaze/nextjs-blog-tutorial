@@ -47,12 +47,14 @@ module.exports = {
     container: {
       center: true,
     },
-    spacing: {
-      sm: '8px',
-      md: '16px',
-      lg: '24px',
-      xl: '48px',
-      '2xl': '96px',
+    extend: {
+      spacing: {
+        sm: '8px',
+        md: '16px',
+        lg: '24px',
+        xl: '48px',
+        '2xl': '96px',
+      },
     },
   },
 };

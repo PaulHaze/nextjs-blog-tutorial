@@ -10,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex flex-col justify-center w-3/4 p-5 mx-auto bg-white rounded-lg shadow-2xl">
-        <h1 className="p-5 font-bold text-center text-transparent bg-clip-text bg-gradient-to-b from-indigo-400 to-violet-800">
+        <h1 className="font-bold text-center text-transparent bg-clip-text bg-gradient-to-b from-indigo-400 to-violet-800">
           Lets learn Next JS
         </h1>
         <div className="relative mx-auto mb-5 w-[300px] h-[450px] ">
@@ -25,7 +25,7 @@ export default function Home() {
           <Link href="/posts/first-post">
             <button
               type="button"
-              className="px-4 py-2 font-semibold text-blue-400 transition duration-200 ease-in-out bg-white border rounded shadow-sm hover:shadow-lg active:shadow-none hover:scale-105 active:scale-95"
+              className="px-4 py-2 font-semibold text-blue-400 transition duration-200 ease-in-out bg-white border rounded shadow-sm hover:shadow-md active:shadow-none hover:scale-105 active:scale-95"
             >
               Posts
             </button>
