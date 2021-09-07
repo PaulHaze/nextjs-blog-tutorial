@@ -9,18 +9,12 @@ export function NavBar() {
       <div>
         <div className="flex space-x-3">
           <Link href="/about">
-            <button
-              type="button"
-              className="bg-white/30 text-white tex-sm px-4 py-0.5 rounded"
-            >
+            <button type="button" className="nav-link">
               About
             </button>
           </Link>
           <Link href="/posts/">
-            <button
-              type="button"
-              className="bg-white/30 text-white tex-sm px-4 py-0.5 rounded"
-            >
+            <button type="button" className="nav-link">
               Posts
             </button>
           </Link>
