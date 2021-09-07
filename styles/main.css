@@ -2,7 +2,7 @@
 
 @layer base {
   body {
-    @apply h-[100vh] bg-gradient-to-b from-blue-100 to-violet-300;
+    @apply min-h-[100vh] bg-gradient-to-b from-blue-100 to-violet-300;
   }
   h1 {
     @apply text-4xl font-normal leading-normal;
