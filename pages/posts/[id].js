@@ -1,11 +1,9 @@
 import Link from 'next/link';
 import Head from 'next/head';
 
-import MainLayout from '../../layouts/MainLayout';
-
 export default function IdPost({ params }) {
   return (
-    <MainLayout>
+    <>
       <Head>
         <title>Id Post</title>
         <link rel="icon" href="/favicon.ico" />
@@ -36,7 +34,7 @@ export default function IdPost({ params }) {
           </div>
         </div>
       </div>
-    </MainLayout>
+    </>
   );
 }
 

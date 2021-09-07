@@ -1,10 +1,9 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import MainLayout from '../layouts/MainLayout';
 
 export default function About({ title, body }) {
   return (
-    <MainLayout>
+    <>
       <Head>
         <title>About Page</title>
       </Head>
@@ -25,7 +24,7 @@ export default function About({ title, body }) {
             </button>
           </Link>
 
-          <Link href="/posts/first-post">
+          <Link href="/posts/">
             <button
               type="button"
               className="px-4 py-2 font-semibold text-blue-400 transition duration-200 ease-in-out bg-white border rounded shadow-sm hover:shadow-md active:shadow-none hover:scale-105 active:scale-95"
@@ -35,7 +34,7 @@ export default function About({ title, body }) {
           </Link>
         </div>
       </div>
-    </MainLayout>
+    </>
   );
 }
 

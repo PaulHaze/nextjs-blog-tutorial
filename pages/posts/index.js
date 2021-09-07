@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import MainLayout from '../../layouts/MainLayout';
 
 import { PostList } from '../../components';
 
@@ -10,11 +9,10 @@ export default function Posts({ posts }) {
       <Head>
         <title>Posts</title>
       </Head>
-      <MainLayout>
-        <div className="">
-          <PostList posts={posts} />
-        </div>
-      </MainLayout>
+
+      <div className="">
+        <PostList posts={posts} />
+      </div>
     </div>
   );
 }
