@@ -10,7 +10,7 @@ export default function Posts({ posts }) {
         <title>Posts</title>
       </Head>
 
-      <div className="">
+      <div className="max-w-2xl mx-auto">
         <PostList posts={posts} />
       </div>
     </div>
